@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './Login.css';
-import { FaUser, FaLock} from "react-icons/fa";
+import { FaUser, FaLock} from "react-icons/fa"; 
 import { Link } from 'react-router-dom';
 
 const LoginReg = () => {
@@ -20,12 +20,12 @@ const LoginReg = () => {
                 <div className='remember-me'>
                     <label><input type='checkbox'/>
                     Remember Me</label>
-                    <a href='#'>Forgot Password?</a>
+                    <a>Forgot Password?</a>
                 </div>
                 <button type='submit'>Login</button>
 
                 <div className='register-link'>
-                    <p>Don't have an account?<Link to='Reg'>Register Now</Link></p>
+                    <p>Don't have an account?<Link to='/reg'>Register Now</Link></p>
                 </div>
             </form>    
         </div>

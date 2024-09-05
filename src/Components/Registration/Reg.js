@@ -28,7 +28,7 @@ const Reg = () => {
                 <button type='submit'>Register</button>
 
                 <div className='register-link'>
-                    <p>Already have an account?<Link to='Login'>Login Now</Link></p>
+                    <p>Already have an account?<Link to='/login'>Login Now</Link></p>
                 </div>
             </form>
         </div>
